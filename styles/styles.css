@@ -9,6 +9,8 @@
 }
 
 .grid {
+    width: 960px;
+    height: 960px;
     display: flex;
     flex-direction: column;
     border: 1px solid #f76707;
@@ -17,10 +19,16 @@
 .row {
     display: flex;
     flex-direction: row;
+    flex-grow: 1;
+    flex-shrink: 2;
+    flex-basis: 0;
 }
 
 .col {
-    width: 30px;
-    height: 30px;
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 2;
+    flex-basis: 0;
+    
     border: 1px solid #f76707;
 }
