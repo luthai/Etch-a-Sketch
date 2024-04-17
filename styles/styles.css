@@ -6,7 +6,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.grid {
+    display: flex;
     flex-direction: column;
+    border: 1px solid #f76707;
 }
 
 .row {
